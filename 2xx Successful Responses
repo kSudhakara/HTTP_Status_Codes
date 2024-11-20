@@ -1,0 +1,15 @@
+
+
+These indicate that the request was successfully received, understood, and accepted.
+
+200 OK
+The request was successful, and the server returned the requested resource.
+
+201 Created
+The request was successful, and a new resource was created as a result.
+
+202 Accepted
+The request has been accepted for processing, but the processing is not yet complete.
+
+204 No Content
+The server successfully processed the request, but there is no content to send in the response.
