@@ -1,0 +1,15 @@
+
+
+These indicate that further action needs to be taken by the client to complete the request.
+
+301 Moved Permanently
+The requested resource has been permanently moved to a new URL.
+
+302 Found (Previously "Moved Temporarily")
+The resource is temporarily located at a different URL, and the client should use that URL.
+
+304 Not Modified
+This indicates that the resource has not been modified since the last request, and the client can use a cached version.
+
+307 Temporary Redirect
+The resource is temporarily located elsewhere, but the client should continue to use the original request method (e.g., POST instead of GET).
