@@ -1,0 +1,12 @@
+
+
+These status codes indicate that the request was received and understood, and that the process is continuing.
+
+100 Continue
+This means that the client should continue with the request, or ignore it if the request is already complete.
+
+101 Switching Protocols
+This means that the server is switching protocols, as requested by the client via the Upgrade header.
+
+102 Processing
+This status code is used in WebDAV and indicates that the server has received and is processing the request, but no response is available yet.
