@@ -1,0 +1,28 @@
+
+
+These indicate problems on the server side, often unrelated to the client request.
+
+500 Internal Server Error: The server encountered an unexpected condition that prevented it from fulfilling the request.
+
+How to fix:
+Check server logs for detailed error messages.
+Debug and fix issues in server-side code or configuration files.
+
+502 Bad Gateway: The server, acting as a gateway or proxy, received an invalid response from an upstream server.
+
+How to fix:
+Ensure that the upstream server is functioning properly.
+Check network configurations between the servers.
+
+503 Service Unavailable: The server is temporarily unable to handle the request, often due to overload or maintenance.
+
+How to fix:
+Reduce server load or scale up resources (CPU, memory, etc.).
+Implement a retry mechanism or serve a "maintenance" page during downtimes.
+
+504 Gateway Timeout: The server, acting as a gateway or proxy, did not receive a timely response from the upstream server.
+
+How to fix:
+Investigate why the upstream server is slow or unresponsive.
+Adjust timeout settings on the gateway/proxy server.
+
