@@ -1,0 +1,44 @@
+
+These indicate problems with the client's request. Here are the most common ones:
+
+400 Bad Request: The server could not understand the request due to invalid syntax.
+
+How to fix:
+Check the request syntax, URL, or query parameters.
+Ensure the client is sending a properly formatted request.
+
+401 Unauthorized: The request requires user authentication, and the client did not provide valid credentials.
+
+How to fix:
+Ensure that the user is logged in and has valid credentials.
+Set up or update authentication mechanisms like API keys, OAuth tokens, or login sessions.
+
+403 Forbidden: The client is authenticated but does not have permission to access the requested resource.
+
+How to fix:
+Check the permissions of the requested resource on the server.
+Update server configurations, file permissions, or access control settings.
+
+404 Not Found: The server cannot find the requested resource.
+
+How to fix:
+Check if the URL is correct.
+Ensure that the resource exists on the server and is correctly linked.
+
+405 Method Not Allowed: The HTTP method used is not supported for the requested resource.
+
+How to fix:
+Verify that the server supports the method (GET, POST, PUT, etc.) for the requested resource.
+Adjust the client request or server configuration.
+
+408 Request Timeout: The client took too long to send the request, and the server closed the connection.
+
+How to fix:
+Optimize the client request to send data faster.
+Increase the server’s timeout limit if necessary.
+
+429 Too Many Requests: The client has sent too many requests in a given amount of time (rate limiting).
+
+How to fix:
+Reduce the frequency of client requests.
+Implement proper rate limiting on the server side and handle it on the client side with retries after a delay.
